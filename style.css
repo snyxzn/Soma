@@ -1,0 +1,80 @@
+body {
+
+text-align: center;
+margin-top: 10%;
+background-image: url(https://imgs.search.brave.com/1lr8EhVFQm08Mh6Gg4fVRUcXRcHHWSbCp0_I17d3KOw/rs:fit:1200:1200:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjMx/MjY1NC5qcGc);
+background-size: 100%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-size: 30px;
+margin: 0;
+padding: 0;
+
+}
+
+main {
+
+background-color: rgba(0, 0, 0, 0.479);
+color: white;
+padding: 5%;
+margin-top: 5%;
+border-radius: 4px;
+
+}
+
+#valor1 {
+
+
+padding: 1.5%;
+font-size: 15px;
+text-align: center;
+
+}
+
+#valor2 {
+
+    padding: 1.5%;
+    font-size: 15px;
+    text-align: center;
+    
+    }
+
+    footer {
+
+        position: fixed;
+    margin-top: 18%;
+    text-align: center;
+    padding: 2%;
+    width: 100%;
+    bottom: 0;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+    }
+
+    #equal {
+
+padding: 1.5%;
+margin-left: 2%;
+padding-right: 4%;
+padding-left: 4%;
+
+    }
+
+.number {
+
+cursor: pointer;
+
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    width: 20px;
+    height: 50px;
+    margin: 10px;
+    padding: 5px;
+    transform: rotate(90deg);
+    filter: sepia(100%) hue-rotate(90deg);
+    cursor: pointer;
+    background-color: white;
+  }
